@@ -15,4 +15,6 @@ jobs:
                   trello-auth-token: ${{ secrets.TRELLO_AUTH_TOKEN }}
                   trello-list-id-pr-open: 6603333cf96e4419a590d9ab
                   trello-list-id-pr-closed: 66025544a40b6a11a12233de
-                  # For more options look below
+                  list-name: "To Do" # The name of the list on your Trello board where new cards will be added
+                  card-name: ${{ github.event.issue.title }}
+                  card-description: ${{ github.event.issue.body }}
