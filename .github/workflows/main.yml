@@ -1,0 +1,2 @@
+- name: Trello Card & GitHub PR Integration
+uses: rematocorp/trello-integration-action@v9.6.4
