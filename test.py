@@ -1,6 +1,6 @@
 print("Hello, World!")
 
-num1 = 5
+num1 = 8
 num2 = 7
 sum_result = num1 + num2
 
