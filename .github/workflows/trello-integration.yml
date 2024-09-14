@@ -13,8 +13,8 @@ jobs:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   trello-api-key: ${{ secrets.TRELLO_API_KEY }}
                   trello-auth-token: ${{ secrets.TRELLO_AUTH_TOKEN }}
-                  trello-list-id-pr-open: 66e4686920186523d0494f47
-                  trello-list-id-pr-closed: 66e4686920186523d0494f47
-                  trello-list-id-pr-draft: "66e4686920186523d0494f47"        # Replace with the Trello list ID for drafts
-                  trello-list-id-pr-changes-requested: "66e4686920186523d0494f47"  # Replace with the Trello list ID for PRs with changes requested
-                  trello-list-id-pr-approved: "66e4686920186523d0494f47"  # Replace with the Trello list ID for approved PRs
+                  trello-list-id-pr-open: 66e6223fc9a11e1e1cfdcfc1
+                  trello-list-id-pr-closed: 66e6225c7d728173b9abdbb1
+                  trello-list-id-pr-draft: 66e468761e762a768ddaba31       
+                  trello-list-id-pr-changes-requested: 66e6224d7ae778eba4ff0bb3 
+                  trello-list-id-pr-approved: 66e62258c8ecf0d39176e2a0
