@@ -13,11 +13,11 @@ jobs:
                   github-token: ${{ secrets.GITHUB_TOKEN }}
                   trello-api-key: ${{ secrets.TRELLO_API_KEY }}
                   trello-auth-token: ${{ secrets.TRELLO_AUTH_TOKEN }}
-                  trello-list-id-pr-open: 66e46882bc0c8959af96913b
-                  trello-list-id-pr-closed: 66e46882bc0c8959af96913b
+                  trello-list-id-pr-open: 66e4686920186523d0494f47
+                  trello-list-id-pr-closed: 66e4686920186523d0494f47
                   list-name: "Github" # The name of the list on your Trello board where new cards will be added
                   card-name: ${{ github.event.issue.title }}
                   card-description: ${{ github.event.issue.body }}
-                  trello-list-id-pr-draft: "66e46882bc0c8959af96913b"        # Replace with the Trello list ID for drafts
-                  trello-list-id-pr-changes-requested: "66e46882bc0c8959af96913b"  # Replace with the Trello list ID for PRs with changes requested
-                  trello-list-id-pr-approved: "66e46882bc0c8959af96913b"  # Replace with the Trello list ID for approved PRs
+                  trello-list-id-pr-draft: "66e4686920186523d0494f47"        # Replace with the Trello list ID for drafts
+                  trello-list-id-pr-changes-requested: "66e4686920186523d0494f47"  # Replace with the Trello list ID for PRs with changes requested
+                  trello-list-id-pr-approved: "66e4686920186523d0494f47"  # Replace with the Trello list ID for approved PRs
